@@ -2,23 +2,14 @@ import React, { useState } from "react";
 import "./index.css"; // Import the corresponding CSS file
 import { Modal } from "@mui/material";
 
-// import EditContainer from "./EditContainer";
 import MissingProduct from "../MissingProduct";
-// import status from "../data/status";
-// import { useDispatch } from "react-redux";
-// import { handleStatus } from "../orders-redux/orderSlice";
-
-// const { Approved } = status;
-
 import CheckIcon from "@mui/icons-material/Check";
 import ClearIcon from "@mui/icons-material/Clear";
-// import SearchIcon from '@mui/icons-material/Search';
 
 
 const ProductItem = (props) => {
   const { item,onChangeStatusApp,onChangeStatusMiss } = props;
 
-  // const [AprrovedColor, setApprovedColor] = useState(false)
   const [editModalOpen, setEditModalOpen] = useState(false);
   const [missingProductModal, setMissingProductModal] = useState(false);
 
