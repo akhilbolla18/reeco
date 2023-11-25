@@ -1,0 +1,136 @@
+.list-container {
+    margin-top: 10px;
+  }
+  
+  .table-container {
+    width: 90vw;
+    min-width: 1100px;
+    max-width: 1800px;
+    margin: 10px auto;
+    border: 1px solid #e9e8e8;
+    background-color: #fefffe;
+    border-radius: 10px;
+    padding: 20px 60px;
+  }
+  
+  .table {
+    width: 100%;
+  }
+  
+  .table tr {
+    padding: 10px;
+  }
+  
+  .table th {
+    color: #9d9c9d;
+  }
+  
+  .table td {
+    color: #6e6e6e;
+  }
+  
+  .table td,
+  .table th {
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    padding: 20px 10px;
+  }
+  
+  .table td:first-of-type {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .table td:last-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .input-btn-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .input-container {
+    width: 200px;
+    border: 1px solid gray;
+    border-radius: 25px;
+    position: relative;
+    height: 100%;
+    height: 40px;
+    padding-left: 5px;
+  }
+  
+  .search-input {
+    border: none;
+    padding: 10px 30px;
+    outline: none;
+    background-color: transparent;
+  }
+  
+  .search-icon-container {
+    position: absolute;
+    background: none;
+    border: none;
+    left: 5;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .search {
+    font-size: 18px;
+  }
+  
+  .btns-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .new-item-btn {
+    height: 30px;
+    border: 1px solid green;
+    border-radius: 15px;
+    color: #1f633e;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .item-status {
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: gray;
+  }
+  
+  .item-image {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  .icon-container {
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
